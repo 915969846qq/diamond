@@ -1,0 +1,165 @@
+#top-top {
+  padding: 0 15%;
+  height: 34px;
+  background: #f8e3df;
+  font-size: 12px;
+}
+
+#top-top li > a {
+  display: inline-block;
+  line-height: 33px;
+  padding: 0 5px;
+  width: 60px;
+  height: 34px;
+  position: relative;
+  z-index: 11;
+  box-sizing: border-box;
+}
+#licode-wechat:hover > a,
+#limynest:hover > a,
+#limycarts:hover > span > a {
+  background: white;
+  border: 1px solid #feb8ae;
+  border-bottom: none;
+}
+#top-top-right li:hover #code-wechat,
+#top-top-right li:hover #mynest,
+#top-top-right li:hover #mycarts {
+  display: block;
+}
+#top-top-left {
+  float: left;
+  line-height: 30px;
+}
+#top-top-left > span > a:hover {
+  color: #fdb2a4;
+}
+#top-top-right > ul > li {
+  float: right;
+  margin-left: 2%;
+  line-height: 30px;
+}
+#top-top-right> ul > li:hover>a{
+    color: #fdb2a4;
+}
+#limycarts > span > a {
+  display: inline-block;
+  line-height: 33px;
+  padding: 0 5px;
+  width: 105px;
+  height: 34px;
+  position: relative;
+  z-index: 11;
+  box-sizing: border-box;
+}
+#number-color {
+  font-size: 13px;
+  color: #ff8a81;
+  font-weight: bold;
+}
+
+#code-wechat {
+  position: absolute;
+  z-index: 10;
+  height: 156px;
+  top: 33px;
+  display: none;
+  border: 1px solid #ff8a81;
+}
+#mynest {
+  position: absolute;
+  z-index: 10;
+  background: #fff;
+  top: 33px;
+  width: 72px;
+  box-sizing: border-box;
+  border: 1px solid #ff8a81;
+  display: none;
+}
+#mynest a:hover{
+  color:#ff8a81 ;
+}
+#mycarts {
+  position: absolute;
+  z-index: 10;
+  background: #fff;
+  top: 33px;
+  box-sizing: border-box;
+  border: 1px solid #ff8a81;
+  display: none;
+  width: 240px;
+  height: auto;
+  max-height: 399px;
+  min-height: 59px;
+  vertical-align: middle;
+}
+/* 导航购物栏 */
+.mycarts-info {
+  height: 70px;
+  margin: 0 8px 5px 0;
+  border-bottom: 1px solid #f2f1f1;
+}
+.mycarts-info img {
+  float: left;
+}
+.mycarts-info a {
+  background: url("../../../static/img/indexw_shopCard_del.jpg") no-repeat left top;
+  width: 15px;
+  height: 15px;
+  float: right;
+  display: block;
+  margin-top: 13px;
+}
+.mycarts-info a:hover{
+    background: url("../../../static/img/indexw_shopCard_del.jpg") no-repeat right top;
+}
+.mycarts-info div:nth-of-type(1) {
+  float: left;
+  width: 135px;
+  margin: 5px 8px 0 0;
+  text-align: left;
+}
+.mycarts-info div:nth-of-type(2) {
+  float: left;
+  width: 135px;
+  margin: 5px 8px 0 0;
+  text-decoration: none;
+  color: #ff8a81;
+  text-align: left;
+}
+.mycarts-info div:nth-of-type(2) strong {
+  font-size: 16px;
+}
+#mycarts-bottom > div {
+  color: #ff8a81;
+  float: left;
+  text-align: left;
+  margin-left: 8px;
+  width: 135px;
+  height: 22px;
+  line-height: 22px;
+  padding: 10px 0;
+}
+#mycarts-bottom > div font {
+  color: #000;
+}
+#mycarts-bottom > a {
+  width: 54px;
+  height: 24px;
+  float: right;
+  display: block;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #fff !important;
+  text-align: center;
+  line-height: 24px;
+  font-family: Arial, "宋体";
+  font-size: 12px;
+  background: #ff8a81;
+}
+.gname{
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
