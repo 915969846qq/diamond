@@ -1,0 +1,78 @@
+#orderbody {
+  width: 80%;
+  margin: 40px auto;
+}
+
+#orderbody-headr > h1 {
+  border-bottom: 1px solid #000;
+  text-align: left;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+}
+
+#orderbody-body {
+  margin-top: 2px;
+  border-top: 1px solid #999999;
+}
+#orderbody-body > h2 {
+  font-size: 18px;
+  text-align: left;
+  height: 60px;
+  line-height: 60px;
+}
+
+#Delivery {
+  height: 60px;
+  line-height: 60px;
+  text-align: left;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #d3d0d0;
+}
+.checked {
+  float: left;
+}
+.checked:hover {
+  border-bottom: 2px solid #ff8a81;
+}
+.content-div {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d3d0d0;
+}
+#payment {
+  text-align: left;
+}
+#payment h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#payment input[type="radio"] {
+  margin-top: 20px;
+}
+.clear {
+  clear: both;
+}
+#invoice div{
+  display: inline-block;
+  padding: 8px 40px;
+  border: 1px solid #dbd4d4;
+  font-size: 13px;
+  margin-right: 15px;
+}
+#invoice div:hover{
+    border: 1px solid #ff8a81;
+    color: #ff8a81;
+    cursor:default;
+}
+
+#reminder{
+  margin: 20px 0;
+  font-size: 12px;
+}
+#reminder p:nth-of-type(2){
+  padding-left: 60px;
+}
+#Invoicetitle .el-input{
+  display: inline-block;
+  width: 180px;
+}

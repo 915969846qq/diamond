@@ -1,0 +1,277 @@
+em{
+  font-style:normal;
+}
+.m_main{
+  width: 1180px;
+  margin: 0 auto;
+  background:#fff;
+}
+.m_header_pictoptxt{
+  width: 277px;
+  text-align: center;
+  font-family: Arial,"宋体" ;
+  font-size:30px;
+  color: #000;
+  position: absolute;
+  left: 190px;
+  top: 238px;
+  letter-spacing: 2px;
+  z-index: 5;
+}
+.m_brand_text{
+  float: left;
+  width: 401px;
+}
+.m_brand_pic{
+  float: right;
+  width: 762px;
+}
+.m_brand_text dl{
+  border-bottom: 1px solid #000;
+  padding-bottom: 65px;
+}
+.m_brand_text dt{
+  font-size: 26px;
+  color:#000;font-family: Arial,"宋体";
+  padding:65px 0 20px 50px;
+  letter-spacing: 2px;
+}
+.m_brand_text dt a{
+  color: #000;
+}
+.m_brand_text dt a:hover{
+  color:#ff8a81;
+}
+.m_brand_text dd span{
+  padding-left: 50px;
+  display:block;
+  line-height: 23px;
+  color: #333;
+}
+.m_brand_text dd em{
+  padding-left: 47px;
+  display: block;
+  color:#999;
+  padding-top: 60px;
+}
+.m_brand_text dd em a{
+  color:#333;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.m_brand_text dd em a:hover,.m_brand_hide span a:hover{
+  color:#ff8a81;
+}
+.m_brand_ad{
+  overflow:hidden;
+  padding-top:40px;
+  padding-left: 32px;
+}
+.m_brand_shw{
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.m_brand_shw li{
+  float:left;
+  position: relative;
+  margin-left: 10px;
+  z-index:0;
+}
+.m_brand_shw_01{
+  width:474px;
+  height: 474px;
+  position: relative;
+}
+.m_brand_shw_02{
+  width: 237px;
+  height: 474px;
+  position: relative;
+}
+.m_brand_shw_03{
+  width: 722px;
+  height: 474px;
+  margin-top: 10px;
+  position: relative;
+  z-index:0;
+}
+.m_brand_hide{
+  position: absolute;
+  top:0;
+  left:0;
+}
+.m_brand_hide em{
+  display: block;
+  width:100%;
+  height: 100%;
+  background:#000;
+  opacity: 0;
+  filter:alpha(opacity=0);
+  z-index: 2;
+  position: absolute;
+}
+.m_brand_hide span{
+  display:block;
+  text-align:center;
+  z-index: 2;
+  position: absolute;
+  color: #fff;font-family: Arial,"宋体";
+  width:100%;
+  padding-top:
+    195px;
+}
+.m_brand_hide span b{
+  font-size: 26px;
+  font-weight: normal;
+}
+.m_brand_hide span i{
+  display: block;
+  border-bottom: 1px solid #fff;
+  height:0;
+  width:65px;
+  margin:20px auto;
+}
+.m_brand_hide span a{
+  color: #fff;
+  font-size: 12px;
+  padding: 0 8px;
+}
+.m_brand_shw_01 .m_brand_hide{
+  display: none;
+  width:474px;
+  height: 474px;
+}
+.m_brand_shw_02 .m_brand_hide{
+  display: none;
+  width: 237px;
+  height: 474px;
+}
+.m_brand_shw_03 .m_brand_hide{
+  display: none;
+  width: 722px;
+  height: 474px;
+}
+/*动画*/
+.animateTShell{
+  width:1138px;
+  height:456px;
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;
+}
+.animateTShell div{
+  width:1138px;
+  height:456px;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  z-index:0;
+}
+.animateTShell div ul{
+  width:7000px;
+  height:376px;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:5
+}
+.animateTShell div ul li{
+  width:1138px;
+  height:376px;
+  float:left;
+  overflow:hidden
+}
+.m_brand_pic .animateTShell{
+  width:722px;
+  height:236px;
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;
+}
+.m_brand_pic .animateTShell div{
+  width:722px;
+  height:236px;
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  z-index:0;
+}
+.m_brand_pic .animateTShell div ul{
+  width:2000px;
+  height:236px;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:1;
+}
+.m_brand_pic .animateTShell div ul li{
+  width:722px;
+  height:236px;
+  float:left;
+  overflow:hidden;
+  position:relative;
+  z-index:1;
+}
+.m_brand_pic .animateTShell div ul li i{
+  position:absolute;
+  z-index:20;
+  color:#fff;
+  bottom:12px;
+  left:25px;
+}
+.m_brand_pic .m_brand_pic {
+  display:none!important;
+}
+.m_brand_pic .disc_border {
+  width:700px;
+  height:15px;
+  position:absolute;
+  z-index:2;
+  left: 10px;
+  bottom:10px;
+  text-align: right;
+}
+.bg_ragb{
+  background:#000;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  position:absolute;
+  bottom:5px;left:10px;
+  z-index:3;
+  display:block;
+  width:702px;
+  height:28px;
+}
+.m_brand_pic  .disc {
+  width: 10px;
+  height: 10px;
+  margin-right:8px;
+  cursor:pointer;
+  display:inline-block;
+  background:#fff;
+  border-radius:50%;
+}
+.m_brand_pic .disc.disc_hover {
+  background:#f6827a;
+} /*当前项*/
+
+body,td, th {
+  color: #000000;
+  font-size: 12px;
+  font-family:  Arial,"宋体";
+}
+form {
+  margin: 0;
+  padding: 0;
+}
+img, dd, dl, dt {
+  padding:0;
+  margin:0;
+  border:0;
+}
+ul, li {
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+
+

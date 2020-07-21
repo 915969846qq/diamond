@@ -1,0 +1,112 @@
+#comment {
+  width: 1180px;
+  margin: 0px auto 70px auto;
+  text-align: center;
+}
+.comment-content {
+  background: #f9f9f9;
+}
+.comment-content > div > a {
+  float: left;
+}
+.comment-content > div > div {
+  color: #999;
+}
+#comment-title p{
+  line-height: 58px;
+  height: 58px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  display: inline-block;
+  margin-left: 5px;
+}
+.content {
+  margin: 0 25px;
+  height: auto;
+  clear: both;
+  overflow: hidden;
+  padding-top: 18px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #fff;
+  text-align: left;
+}
+.content > a {
+  margin: 10px 10px 0 0;
+}
+.content-title {
+  width: 95%;
+  float: left;
+}
+.content-title > div {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.content-user {
+  float: left;
+}
+.clearB {
+  clear: both;
+}
+.send-img {
+  cursor: pointer;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  cursor: url("http://img.zbird.cn/ww3/citystation/an/big.cur"), auto;
+}
+.star-right {
+  float: right;
+}
+.star {
+  margin-right: 0px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  background: url("../../../static/img/star_show_gray.png") no-repeat left top;
+}
+.content-commodity span,
+.content-service span {
+  color: rgb(70, 66, 66);
+  font-size: 13px;
+}
+.send-img font {
+  float: left;
+}
+.send-img ul {
+  width: 300px;
+  float: left;
+}
+.send-img li {
+  display: inline-block;
+  width: 89px;
+  height: 89px;
+}
+.send-img a {
+  width: 89px;
+  height: 89px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dddddd;
+  margin-top: 10px;
+}
+/* font {
+  margin-right: 10px;
+} */
+#allComment {
+  background: #f1dad4;
+  color: #000 !important;
+  width: 140px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-family: Arial, "宋体";
+  font-size: 12px;
+  display: inline-block;
+  margin: 20px 0;
+}
+#allComment:hover{
+  opacity: 0.8;
+}

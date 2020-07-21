@@ -1,0 +1,40 @@
+#cartbody {
+  height: 431px;
+  margin: 60px auto;
+  width: 80%;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  background: url("../../../static/img/shopcarbgpic.jpg") no-repeat center top;
+  border-top: 1px solid #000;
+}
+#cartbody1 {
+  width: 80%;
+  margin: 60px auto;
+}
+#defaultcart {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+#defaultcart p {
+  position: absolute;
+  top: 90px;
+  left: 75px;
+}
+#defaultcart a {
+  position: absolute;
+  top: 150px;
+  left: 170px;
+  color: aliceblue;
+  width: 126px;
+  height: 34px;
+  background: #feb8ae;
+  line-height: 34px;
+}
+#defaultcart a:hover {
+  opacity: 0.8;
+}
